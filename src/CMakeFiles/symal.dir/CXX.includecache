@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raj/Downloads/mgizapp/src/cmd.h
+
+/home/raj/Downloads/mgizapp/src/symal.cpp
+cassert
+-
+iomanip
+-
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+list
+-
+vector
+-
+set
+-
+algorithm
+-
+cstring
+-
+cmd.h
+/home/raj/Downloads/mgizapp/src/cmd.h
+

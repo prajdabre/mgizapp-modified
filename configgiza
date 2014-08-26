@@ -1,0 +1,100 @@
+adbackoff 0
+compactadtable 1
+compactalignmentformat 0
+coocurrencefile train.mr_train.hi.cooc
+corpusfile train.mr_train.hi.snt
+countcutoff 1e-06
+countcutoffal 1e-05
+countincreasecutoff 1e-06
+countincreasecutoffal 1e-05
+countoutputprefix
+d
+deficientdistortionforemptyword 0
+depm4 76
+depm5 68
+dictionary
+dopeggingyn 0
+dumpcount 0
+dumpcountusingwordstring 0
+emalignmentdependencies 2
+emalsmooth 0.2
+emprobforempty 0.4
+emsmoothhmm 2
+hmmdumpfrequency 1
+hmmiterations 5
+log 0
+logfile src_trg_mgiza.log
+m1 5
+m2 0
+m3 3
+m4 3
+m5 0
+m5p0 -1
+m6 0
+manlexfactor1 0
+manlexfactor2 0
+manlexmaxmultiplicity 20
+maxfertility 10
+maxsentencelength 101
+mh 5
+mincountincrease 1e-07
+ml 101
+model1dumpfrequency 1
+model1iterations 5
+model23smoothfactor 0
+model2dumpfrequency 1
+model2iterations 0
+model345dumpfrequency 1
+model3dumpfrequency 1
+model3iterations 3
+model4iterations 3
+model4smoothfactor 0.4
+model5iterations 0
+model5smoothfactor 0.1
+model6iterations 0
+nbestalignments 0
+ncpus 1
+nodumps 0
+nofiledumpsyn 0
+noiterationsmodel1 5
+noiterationsmodel2 0
+noiterationsmodel3 3
+noiterationsmodel4 3
+noiterationsmodel5 0
+noiterationsmodel6 0
+nsmooth 4
+nsmoothgeneral 0
+numberofiterationsforhmmalignmentmodel 5
+onlyaldumps 1
+outputfileprefix dumps/mr_hi.dict
+outputpath
+p 0
+p0 0.999
+peggedcutoff 0.03
+pegging 0
+previousa
+previousd
+previousd4
+previousd42
+previoushmm
+previousn
+previousp0
+previoust
+probcutoff 1e-07
+probsmooth 1e-07
+readtableprefix
+restart 0
+sourcevocabularyfile train.mr.vcb
+t1 1
+t2 1
+t2to3 1
+t3 1
+t345 1
+targetvocabularyfile train.hi.vcb
+tc
+testcorpusfile
+th 1
+transferdumpfrequency 1
+v 0
+verbose 0
+verbosesentence -10

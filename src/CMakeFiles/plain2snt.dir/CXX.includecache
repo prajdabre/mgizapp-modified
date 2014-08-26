@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raj/Downloads/mgizapp/src/plain2snt.cpp
+iostream
+-
+string
+-
+strstream
+-
+fstream
+-
+map
+-
+vector
+-
+stdlib.h
+-
+stdio.h
+-
+

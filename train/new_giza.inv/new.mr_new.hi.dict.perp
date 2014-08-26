@@ -1,0 +1,7 @@
+#trnsz	tstsz	iter	model	trn-pp		test-pp		trn-vit-pp		tst-vit-pp
+1	0	0	THTo3	4.0764e+06		N/A		7.64759e+06		N/A
+1	0	1	Model3	6.01508		N/A		6.2241		N/A
+1	0	2	Model3	3.96943		N/A		3.99104		N/A
+1	0	3	T3To4	3.77321		N/A		3.77413		N/A
+1	0	4	Model4	3.93974		N/A		3.93975		N/A
+1	0	5	Model4	3.93715		N/A		3.93715		N/A

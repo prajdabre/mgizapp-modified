@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/mgiza.dir/main.cpp.o  -o ../bin/mgiza -rdynamic -L/home/raj/Downloads/mgizapp/lib ../lib/libmgiza.a -Wl,-Bstatic -lboost_thread-mt -Wl,-Bdynamic -lpthread -lpthread -Wl,-rpath,/home/raj/Downloads/mgizapp/lib: 

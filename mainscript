@@ -1,0 +1,3 @@
+snt2cooc train.mr_train.hi.cooc train.mr.vcb train.hi.vcb train.mr_train.hi.sn
+
+bin/plain2snt  train.mr train.hi

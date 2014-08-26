@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raj/Downloads/mgizapp/src/cmd.c
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+cmd.h
+/home/raj/Downloads/mgizapp/src/cmd.h
+stdarg.h
+-
+stdarg.h
+-
+varargs.h
+-
+
+/home/raj/Downloads/mgizapp/src/cmd.h
+

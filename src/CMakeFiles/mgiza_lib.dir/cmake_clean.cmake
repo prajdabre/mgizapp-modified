@@ -1,0 +1,41 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/mgiza_lib.dir/alignment.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/AlignTables.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/ATables.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/cmd.c.o"
+  "CMakeFiles/mgiza_lib.dir/collCounts.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/Dictionary.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/ForwardBackward.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/getSentence.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/hmm.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/HMMTables.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/logprob.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model1.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model2.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model2to3.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model345-peg.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model3.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model3_viterbi.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/model3_viterbi_with_tricks.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/MoveSwapMatrix.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/myassert.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/NTables.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/Parameter.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/parse.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/Perplexity.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/reports.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/SetArray.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/transpair_model3.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/transpair_model4.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/transpair_model5.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/TTables.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/utility.cpp.o"
+  "CMakeFiles/mgiza_lib.dir/vocab.cpp.o"
+  "../lib/libmgiza.pdb"
+  "../lib/libmgiza.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang C CXX)
+  INCLUDE(CMakeFiles/mgiza_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

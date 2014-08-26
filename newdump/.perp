@@ -1,0 +1,2 @@
+#trnsz	tstsz	iter	model	trn-pp		test-pp		trn-vit-pp		tst-vit-pp
+1	0	0	Model4	1.43556e+09		N/A		1.59884e+09		N/A

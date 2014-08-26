@@ -1,0 +1,178 @@
+Performing C++ SOURCE FILE Test TR1_SHARED_PTR_USE_MEMORY failed with the following output:
+Change Dir: /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3867275052/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3867275052.dir/build.make CMakeFiles/cmTryCompileExec3867275052.dir/build
+make[1]: Entering directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3867275052.dir/src.cxx.o
+/usr/bin/c++    -DTR1_SHARED_PTR_USE_MEMORY   -o CMakeFiles/cmTryCompileExec3867275052.dir/src.cxx.o -c /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:17: error: ‘std::tr1’ has not been declared
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected primary-expression before ‘int’
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected ‘;’ before ‘int’
+make[1]: *** [CMakeFiles/cmTryCompileExec3867275052.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3867275052/fast] Error 2
+
+Source file was:
+
+        #include <memory>
+        int main() {
+           std::tr1::shared_ptr<int> ptr;
+           return 0;
+        }
+       
+Performing C++ SOURCE FILE Test TR1_UNORDERED_MAP_USE_UNORDERED_MAP failed with the following output:
+Change Dir: /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1972805687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1972805687.dir/build.make CMakeFiles/cmTryCompileExec1972805687.dir/build
+make[1]: Entering directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1972805687.dir/src.cxx.o
+/usr/bin/c++    -DTR1_UNORDERED_MAP_USE_UNORDERED_MAP   -o CMakeFiles/cmTryCompileExec1972805687.dir/src.cxx.o -c /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/c++/4.7/unordered_map:35:0,
+                 from /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/c++/4.7/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:14: error: ‘std::tr1’ has not been declared
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected primary-expression before ‘int’
+/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected ‘;’ before ‘int’
+make[1]: *** [CMakeFiles/cmTryCompileExec1972805687.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1972805687/fast] Error 2
+
+Source file was:
+
+        #include <unordered_map>
+        int main() {
+        std::tr1::unordered_map<int, int> m;
+        return 0;
+        }
+       
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec212658936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec212658936.dir/build.make CMakeFiles/cmTryCompileExec212658936.dir/build
+make[1]: Entering directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec212658936.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec212658936.dir/CheckSymbolExists.c.o   -c /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec212658936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec212658936.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec212658936.dir/CheckSymbolExists.c.o  -o cmTryCompileExec212658936 -rdynamic 
+CMakeFiles/cmTryCompileExec212658936.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec212658936] Error 1
+make[1]: Leaving directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec212658936/fast] Error 2
+
+File /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2510703072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2510703072.dir/build.make CMakeFiles/cmTryCompileExec2510703072.dir/build
+make[1]: Entering directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2510703072.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2510703072.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2510703072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2510703072.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2510703072.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2510703072 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2510703072] Error 1
+make[1]: Leaving directory `/home/hieu/workspace/mgizapp/trunk/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2510703072/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test TR1_SHARED_PTR_USE_MEMORY failed with the following output:
+Change Dir: /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DTR1_SHARED_PTR_USE_MEMORY   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:17: error: ‘std::tr1’ has not been declared
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected primary-expression before ‘int’
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected ‘;’ before ‘int’
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+        #include <memory>
+        int main() {
+           std::tr1::shared_ptr<int> ptr;
+           return 0;
+        }
+       
+Performing C++ SOURCE FILE Test TR1_UNORDERED_MAP_USE_UNORDERED_MAP failed with the following output:
+Change Dir: /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/usr/bin/c++    -DTR1_UNORDERED_MAP_USE_UNORDERED_MAP   -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/c++/4.6/unordered_map:35:0,
+                 from /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/c++/4.6/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:14: error: ‘std::tr1’ has not been declared
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected primary-expression before ‘int’
+/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/src.cxx:4:33: error: expected ‘;’ before ‘int’
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+        #include <unordered_map>
+        int main() {
+        std::tr1::unordered_map<int, int> m;
+        return 0;
+        }
+       
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec] Error 1
+make[1]: Leaving directory `/home/raj/Downloads/mgizapp/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+

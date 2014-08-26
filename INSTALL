@@ -1,0 +1,6 @@
+cmake .
+make
+make install
+
+If you want to install to a custom location, add the following flag when you run cmake:
+-DCMAKE_INSTALL_PREFIX=/path/to/custom/location

@@ -1,0 +1,10 @@
+/home/raj/Downloads/mgizapp/src/CMakeFiles/d4norm.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/hmmnorm.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/mgiza.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/mgiza_lib.dir
+/home/raj/Downloads/mgizapp/src/mkcls/CMakeFiles/mkcls.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/plain2snt.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/snt2cooc.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/snt2coocrmp.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/snt2plain.dir
+/home/raj/Downloads/mgizapp/src/CMakeFiles/symal.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/snt2cooc.dir/snt2cooc.cpp.o  -o ../bin/snt2cooc -rdynamic -L/home/raj/Downloads/mgizapp/lib 

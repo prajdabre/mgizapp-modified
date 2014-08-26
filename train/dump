@@ -1,0 +1,81 @@
+mkdir: cannot create directory `new_corpus': File exists
+mkdir: cannot create directory `new_giza.fwd': File exists
+mkdir: cannot create directory `new_giza.inv': File exists
+WARNING: StatVar.cc
+WARNING: StatVar.cc
+WARNING: StatVar.cc
+WARNING: StatVar.cc
+END.
+END.
+Starting MGIZA 
+Initializing Global Paras 
+DEBUG: EnterDEBUG: PrefixDEBUG: LogParsing Arguments 
+Opening Log File 
+Printing parameters 
+Reading vocabulary file from:new_corpus/new.mr.vcb
+Reading vocabulary file from:new_corpus/new.hi.vcb
+Compacted Vocabulary, eliminated 85681 entries 7 remains 
+Compacted Vocabulary, eliminated 43690 entries 7 remains 
+Dictionary Loading complete
+Inputfile in new_corpus/new.mr_new.hi.cooc
+cooc file loading completed
+We are going to load previous model giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.t3.final
+Reading t prob. table from giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.t3.final
+Read 298465 entries in prob. table.
+TTable initialization OK
+Model one initalization OK
+We are going to load previous model from giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.a3.final
+We are going to load previous N model from giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.n3.final
+Reading fertility table from giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.n3.final
+Read 85687 entries in fertility table.
+We are going to load previous D model from giza.fwd/icil-dit-th-cl.tokenized.clean.mr_icil-dit-th-cl.tokenized.clean.hi.dict.d3.final
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.1
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.2
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.3
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.4
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.5
+NTable contains 856880 parameter.
+Dumping nTable to: new_giza.fwd/new.mr_new.hi.dict.n3.final
+writing Final tables to Disk 
+writing decoder configuration file to new_giza.fwd/new.mr_new.hi.dict.Decoder.config
+Starting MGIZA 
+Initializing Global Paras 
+DEBUG: EnterDEBUG: PrefixDEBUG: LogParsing Arguments 
+Opening Log File 
+Printing parameters 
+Reading vocabulary file from:new_corpus/new.hi.vcb
+Reading vocabulary file from:new_corpus/new.mr.vcb
+Compacted Vocabulary, eliminated 43690 entries 7 remains 
+Compacted Vocabulary, eliminated 85681 entries 7 remains 
+Dictionary Loading complete
+Inputfile in new_corpus/new.hi_new.mr.cooc
+cooc file loading completed
+We are going to load previous model giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.t3.final
+Reading t prob. table from giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.t3.final
+Read 215872 entries in prob. table.
+TTable initialization OK
+Model one initalization OK
+We are going to load previous model from giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.a3.final
+We are going to load previous N model from giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.n3.final
+Reading fertility table from giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.n3.final
+Read 43696 entries in fertility table.
+We are going to load previous D model from giza.inv/icil-dit-th-cl.tokenized.clean.hi_icil-dit-th-cl.tokenized.clean.mr.dict.d3.final
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.1
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.2
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.3
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.4
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.5
+NTable contains 436970 parameter.
+Dumping nTable to: new_giza.inv/new.hi_new.mr.dict.n3.final
+writing Final tables to Disk 
+writing decoder configuration file to new_giza.inv/new.hi_new.mr.dict.Decoder.config

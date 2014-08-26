@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/d4norm.dir/d4norm.cxx.o  -o ../bin/d4norm -rdynamic -L/home/raj/Downloads/mgizapp/lib ../lib/libmgiza.a -Wl,-Bstatic -lboost_thread-mt -Wl,-Bdynamic -lpthread -lpthread -Wl,-rpath,/home/raj/Downloads/mgizapp/lib: 

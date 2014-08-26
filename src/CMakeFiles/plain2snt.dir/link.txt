@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/plain2snt.dir/plain2snt.cpp.o  -o ../bin/plain2snt -rdynamic -L/home/raj/Downloads/mgizapp/lib 

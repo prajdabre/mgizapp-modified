@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/symal.dir/symal.cpp.o CMakeFiles/symal.dir/cmd.c.o  -o ../bin/symal -rdynamic -L/home/raj/Downloads/mgizapp/lib 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/snt2coocrmp.dir/snt2cooc-reduce-mem-preprocess.cpp.o  -o ../bin/snt2coocrmp -rdynamic -L/home/raj/Downloads/mgizapp/lib 
